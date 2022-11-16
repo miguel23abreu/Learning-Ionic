@@ -1,0 +1,7 @@
+{
+  "name": "doation",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

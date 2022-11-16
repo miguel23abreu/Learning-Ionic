@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="titulo">
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" >
+  <div class="conteudo animate__animated animate__backInLeft">
+    <img
+    class="img-item"
+    alt="imagem bonita"
+    src="https://drive.google.com/uc?id=16sL85fCiC5QVJsjgMPoWUTy374Wmlsny"/>
+    <p>Existem pessoas precisando da sua ajuda! Veja abaixo como colaborar 😇 😇</p>
+  <ion-card [routerLink] = "['/tabs/tab2']">
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+        class="img-icon"
+        src="https://drive.google.com/uc?id=1beDxDVrPMw9F-liUF9y1Kyf7b0i_fko1" />
+      </ion-thumbnail>
+      <ion-label>
+        Quero Doar
+      </ion-label>
+    </ion-item>
+  </ion-card>
+  <ion-card [routerLink] = "['/tabs/tab3']"> <!--[routerLink] é uma propriedade do angular para fazer rotas-->
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          class="img-icon"
+          src="https://drive.google.com/uc?id=1rAoVaWVzRzXbyFiKN33fnmov2XhCzagP" />
+      </ion-thumbnail>
+      <ion-label>
+        Preciso de Doações
+      </ion-label>
+    </ion-item>
+  </ion-card>
+  </div>
+</ion-content>
